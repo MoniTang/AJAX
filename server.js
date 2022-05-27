@@ -40,7 +40,7 @@ var server = http.createServer(function (request, response) {
     } else if (path === '/style.css') {
         response.statusCode = 200
         response.setHeader('Content-Type', 'text/css;charset=utf-8')
-        response.write(fs.readFileSync('public/style.css'))
+        response.write(fs.readFileSync('./public/style.css'))
         response.end()
     } else if (path === '/2.js') {
         response.statusCode = 200
