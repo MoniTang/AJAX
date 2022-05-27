@@ -88,11 +88,6 @@ getPage.onclick = () => {
             getPage.style.display = "none";
         }
     }
-
-
-
-
-
 };
 
 
